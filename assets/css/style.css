@@ -1,0 +1,44 @@
+@media screen and (min-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+}
+.fundo {
+  background-image: linear-gradient(45deg, black, rgb(138, 139, 138));
+  height: 100vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: aqua;
+}
+
+.calculadora {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  color: red;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #000;
+}
+
+#display {
+  height: 50px;
+  background-color: white;
+  padding: 15px;
+  width: 215px;
+  font-size: 40px;
+  color: #000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.btn {
+  width: 55px;
+  height: 55px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
